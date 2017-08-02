@@ -20,4 +20,15 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+i.delete {
+  position: relative;
+}
+
+i.delete:before {
+  content: "\f00d";
+  font-family: FontAwesome;
+  left: -5px;
+  top: 0;
+}
 </style>
